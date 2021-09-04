@@ -1,5 +1,5 @@
-Analysis & Synthesis report for controle_servo
-Fri Sep 03 21:30:43 2021
+Analysis & Elaboration report for controle_servo
+Sat Sep 04 18:09:36 2021
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -7,17 +7,10 @@ Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -41,31 +34,42 @@ agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Sep 03 21:30:43 2021       ;
-; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
-; Revision Name                   ; controle_servo                              ;
-; Top-level Entity Name           ; controle_servo                              ;
-; Family                          ; Cyclone V                                   ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 23                                          ;
-; Total pins                      ; 5                                           ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Sat Sep 04 18:09:36 2021       ;
+; Quartus Prime Version         ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name                 ; controle_servo                              ;
+; Top-level Entity Name         ; controle_servo                              ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -151,165 +155,15 @@ agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
-+----------------------------+-------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                             ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                      ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------+---------+
-; controle_servo.vhd               ; yes             ; User VHDL File  ; C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------+---------+
-
-
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 30          ;
-;                                             ;             ;
-; Combinational ALUT usage for logic          ; 52          ;
-;     -- 7 input functions                    ; 0           ;
-;     -- 6 input functions                    ; 7           ;
-;     -- 5 input functions                    ; 5           ;
-;     -- 4 input functions                    ; 9           ;
-;     -- <=3 input functions                  ; 31          ;
-;                                             ;             ;
-; Dedicated logic registers                   ; 23          ;
-;                                             ;             ;
-; I/O pins                                    ; 5           ;
-;                                             ;             ;
-; Total DSP Blocks                            ; 0           ;
-;                                             ;             ;
-; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 33          ;
-; Total fan-out                               ; 266         ;
-; Average fan-out                             ; 3.13        ;
-+---------------------------------------------+-------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                       ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name    ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; |controle_servo            ; 52 (52)             ; 23 (23)                   ; 0                 ; 0          ; 5    ; 0            ; |controle_servo     ; controle_servo ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                              ;
-+----------------------------------------+----------------------------------------+
-; Register name                          ; Reason for Removal                     ;
-+----------------------------------------+----------------------------------------+
-; largura_pwm[0..2,11,12]                ; Stuck at GND due to stuck port data_in ;
-; largura_pwm[5,7,16]                    ; Merged with largura_pwm[10]            ;
-; largura_pwm[9]                         ; Merged with largura_pwm[15]            ;
-; largura_pwm[8]                         ; Merged with largura_pwm[14]            ;
-; largura_pwm[6]                         ; Merged with largura_pwm[4]             ;
-; largura_pwm[3]                         ; Merged with largura_pwm[13]            ;
-; Total Number of Removed Registers = 12 ;                                        ;
-+----------------------------------------+----------------------------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 23    ;
-; Number of registers using Synchronous Clear  ; 17    ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 23    ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 5     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_ff             ; 23                          ;
-;     CLR               ; 1                           ;
-;     CLR SCLR          ; 17                          ;
-;     ENA CLR           ; 5                           ;
-; arriav_lcell_comb     ; 52                          ;
-;     arith             ; 17                          ;
-;         1 data inputs ; 17                          ;
-;     normal            ; 35                          ;
-;         2 data inputs ; 9                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 9                           ;
-;         5 data inputs ; 5                           ;
-;         6 data inputs ; 7                           ;
-; boundary_port         ; 5                           ;
-;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.68                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
-Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Fri Sep 03 21:30:29 2021
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off controle_servo -c controle_servo
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file controle_servo.vhd
-    Info (12022): Found design unit 1: controle_servo-rtl File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 20
-    Info (12023): Found entity 1: controle_servo File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 12
+    Info (12022): Found design unit 1: controle_servo-rtl File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo_restored/controle_servo.vhd Line: 20
+    Info (12023): Found entity 1: controle_servo File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo_restored/controle_servo.vhd Line: 12
 Info (12127): Elaborating entity "controle_servo" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at controle_servo.vhd(36): signal "s_largura" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 36
-Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "largura_pwm[10]" is converted into an equivalent circuit using register "largura_pwm[10]~_emulated" and latch "largura_pwm[10]~1" File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 33
-    Warning (13310): Register "largura_pwm[15]" is converted into an equivalent circuit using register "largura_pwm[15]~_emulated" and latch "largura_pwm[15]~5" File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 33
-    Warning (13310): Register "largura_pwm[14]" is converted into an equivalent circuit using register "largura_pwm[14]~_emulated" and latch "largura_pwm[14]~9" File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 33
-    Warning (13310): Register "largura_pwm[13]" is converted into an equivalent circuit using register "largura_pwm[13]~_emulated" and latch "largura_pwm[13]~13" File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 33
-    Warning (13310): Register "largura_pwm[4]" is converted into an equivalent circuit using register "largura_pwm[4]~_emulated" and latch "largura_pwm[4]~17" File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.vhd Line: 33
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 57 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 52 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Fri Sep 03 21:30:43 2021
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:30
+Warning (10492): VHDL Process Statement warning at controle_servo.vhd(36): signal "s_largura" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo_restored/controle_servo.vhd Line: 36
 
 

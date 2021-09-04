@@ -19,8 +19,8 @@ end controle_servo;
 
 architecture rtl of controle_servo is
 
-  constant CONTAGEM_MAXIMA : integer := 125000;-- valor para frequencia da saida de 400Hz 
-                                               -- ou periodo de 2.5ms
+  constant CONTAGEM_MAXIMA : integer := 1000000;-- valor para frequencia da saida de 50Hz 
+                                               -- ou periodo de 20ms
   signal contagem     : integer range 0 to CONTAGEM_MAXIMA-1;
   signal largura_pwm  : integer range 0 to CONTAGEM_MAXIMA-1;
   signal s_largura    : integer range 0 to CONTAGEM_MAXIMA-1;

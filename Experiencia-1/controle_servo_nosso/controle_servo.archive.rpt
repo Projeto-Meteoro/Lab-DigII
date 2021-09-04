@@ -1,5 +1,5 @@
 Archive Project report for controle_servo
-Fri Sep 03 21:31:26 2021
+Sat Sep 04 18:09:36 2021
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Fri Sep 03 21:31:26 2021 ;
+; Archive Project Status ; Successful - Sat Sep 04 18:09:36 2021 ;
 ; Revision Name          ; controle_servo                        ;
 ; Top-level Entity Name  ; controle_servo                        ;
 ; Family                 ; Cyclone V                             ;
@@ -50,30 +50,30 @@ Info: File Set 'Source control' contains:
     Info: Project source and settings files
     Info: Automatically detected source files
 Info: Archive will store files relative to the closest common parent directory
-Info (13213): Using common directory C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/
+Info (13213): Using common directory C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo_restored/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo.qar'
+Info: Generated archive 'C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/controle_servo_nosso/controle_servo_restored/controle_servo.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'controle_servo.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4824 megabytes
-    Info: Processing ended: Fri Sep 03 21:31:26 2021
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Sat Sep 04 18:09:36 2021
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:27
 
 
-+--------------------------------------------------------------+
-; Files Archived                                               ;
-+--------------------------------------------------------------+
-; File Name                                                    ;
-+--------------------------------------------------------------+
-; c:/intelfpga_lite/16.1/quartus/bin64/assignment_defaults.qdf ;
-; controle_servo.qpf                                           ;
-; controle_servo.qsf                                           ;
-; controle_servo.vhd                                           ;
-+--------------------------------------------------------------+
++-------------------------+
+; Files Archived          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; assignment_defaults.qdf ;
+; controle_servo.qpf      ;
+; controle_servo.qsf      ;
+; controle_servo.vhd      ;
++-------------------------+
 
 
