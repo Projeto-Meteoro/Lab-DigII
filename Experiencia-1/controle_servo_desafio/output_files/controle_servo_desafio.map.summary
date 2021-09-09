@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Thu Sep 09 20:32:27 2021
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : controle_servo_desafio
+Top-level Entity Name : controle_servo_desafio
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 26
+Total pins : 7
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
