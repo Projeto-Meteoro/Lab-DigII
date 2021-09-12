@@ -1,0 +1,7 @@
+{
+	"common_dir" : "C:/intelFPGA_lite/Projects/LabDig/tx_serial_base/",
+	"acds_version" : "Version 20.1.1",
+	"platform" : "windows",
+	"os" : "Windows 10",
+	"qpf" : "tx_serial_7E2.qpf"
+}

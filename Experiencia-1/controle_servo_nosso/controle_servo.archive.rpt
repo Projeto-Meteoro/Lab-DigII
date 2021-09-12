@@ -1,5 +1,5 @@
 Archive Project report for controle_servo
-Sat Sep 04 18:09:36 2021
+Fri Sep 10 08:11:08 2021
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Sat Sep 04 18:09:36 2021 ;
+; Archive Project Status ; Successful - Fri Sep 10 08:11:08 2021 ;
 ; Revision Name          ; controle_servo                        ;
 ; Top-level Entity Name  ; controle_servo                        ;
 ; Family                 ; Cyclone V                             ;
@@ -58,11 +58,11 @@ Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'controle_servo.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4821 megabytes
-    Info: Processing ended: Sat Sep 04 18:09:36 2021
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:27
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4822 megabytes
+    Info: Processing ended: Fri Sep 10 08:11:08 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
 +-------------------------+
