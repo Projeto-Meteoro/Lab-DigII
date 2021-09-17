@@ -1,23 +1,3 @@
-------------------------------------------------------------------
--- Arquivo   : tx_serial_tb.vhd
--- Projeto   : Experiencia 2 - Transmissao Serial Assincrona
-------------------------------------------------------------------
--- Descricao : circuito da experiencia 2 
---             > modelo de testbench para simulacao do circuito
---             > de transmissao serial assincrona
---             > Modificacao do testbench 
-------------------------------------------------------------------
--- Revisoes  :
---     Data        Versao  Autor             Descricao
---     09/09/2021  1.0     Edson Midorikawa  versao inicial
---     12/09/2021  1.1     Bancada B1 		 versao final
---     12/09/2021  1.2     Bancada B1 		 versao modificada para a atividade 2 - experiencia 2
-------------------------------------------------------------------
---
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-
 entity tx_serial_tb is
 end entity;
 
@@ -79,7 +59,7 @@ begin
     wait for 50*clockPeriod;
 
     ---- dado de entrada da simulacao (caso de teste #1)
-    dados_ascii_8_in <= "00110101"; -- x35 = '5'	
+    dados_ascii_8_in <= "00110101"; -- x35 = '5'    
     wait for 20*clockPeriod;
 
     ---- acionamento da partida (inicio da transmissao)
@@ -89,13 +69,13 @@ begin
     partida_in <= '0';
 
     ---- espera final da transmissao (pulso pronto em 1)
-	wait until pronto_out='1';
-	
-	---- final do caso de teste 1
+    wait until pronto_out='1';
+    
+    ---- final do caso de teste 1
 
     -- intervalo entre casos de teste
     wait for 500*clockPeriod;
-	
+    
     ---- inicio da simulacao: caso de teste 2 ----------------
     partida_in <= '0';
     reset_in <= '1'; 
@@ -105,7 +85,7 @@ begin
     wait for 50*clockPeriod;
 
     ---- dado de entrada da simulacao (caso de teste #2)
-    dados_ascii_7_in <= "01111010"; -- x7A = 'z'	
+    dados_ascii_8_in <= "01111010"; -- x7A = 'z'    
     wait for 20*clockPeriod;
 
     ---- acionamento da partida (inicio da transmissao)
@@ -115,10 +95,10 @@ begin
     partida_in <= '0';
 
     ---- espera final da transmissao (pulso pronto em 1)
-	wait until pronto_out='1';
-	
-	wait for 500*clockPeriod;
-	---- final do caso de teste 2
+    wait until pronto_out='1';
+    
+    wait for 500*clockPeriod;
+    ---- final do caso de teste 2
 
     ---- final dos casos de teste da simulacao
     assert false report "Fim da simulacao" severity note;
