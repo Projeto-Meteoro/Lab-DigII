@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity rx_serial_tick_uc is 
     port ( clock, reset, partida, tick, fim, recebe_dado:      in  std_logic;
            zera, conta, carrega, desloca, pronto,
-			  limpa, tem_dado : out std_logic
+			  limpa, registra, tem_dado : out std_logic
     );
 end entity;
 
@@ -49,9 +49,10 @@ begin
 		  
 		  when final    =>			Eprox <= dado_presente;
 		  
-		  when dado_presente =>    if recebe_dado = 0 then Eprox <= dado_presente;
+		  when dado_presente =>    if recebe_dado = '0' then Eprox <= dado_presente;
 											else		Eprox<= inicial;
-
+											end if;
+											
         when others =>           Eprox <= inicial;
 
       end case;
@@ -74,6 +75,9 @@ begin
     with Eatual select
         conta <= '1' when recepcao, '0' when others;
 
+    with Eatual select
+        registra <= '1' when armazena, '0' when others;
+		  
     with Eatual select
         pronto <= '1' when final, '0' when others;
 
