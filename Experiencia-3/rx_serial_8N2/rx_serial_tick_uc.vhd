@@ -2,14 +2,15 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity rx_serial_tick_uc is 
-    port ( clock, reset, partida, tick, fim:      in  std_logic;
-           zera, conta, carrega, desloca, pronto: out std_logic
+    port ( clock, reset, partida, tick, fim, recebe_dado:      in  std_logic;
+           zera, conta, carrega, desloca, pronto,
+			  limpa, tem_dado : out std_logic
     );
 end entity;
 
 architecture rx_serial_tick_uc_arch of rx_serial_tick_uc is
 
-    type tipo_estado is (inicial, preparacao, espera, transmissao, final);
+    type tipo_estado is (inicial, preparacao, espera, armazena, recepcao, dado_presente, final);
     signal Eatual: tipo_estado;  -- estado atual
     signal Eprox:  tipo_estado;  -- proximo estado
 
@@ -77,6 +78,6 @@ begin
         pronto <= '1' when final, '0' when others;
 
     with Eatual select
-        tem_dado <= '1' when dado_prese te, '0' when others;
+        tem_dado <= '1' when dado_presente, '0' when others;
 
 end rx_serial_tick_uc_arch;

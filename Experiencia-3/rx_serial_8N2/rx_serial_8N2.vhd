@@ -20,31 +20,31 @@ entity rx_serial_8N2 is
     ); 
 end entity; 
 
-architecture rx_serial_8N2_arch of rx_serial_8N2_8N2 is
+architecture rx_serial_8N2_arch of rx_serial_8N2 is
      
     component rx_serial_tick_uc port ( 
-            clock, reset, partida, tick, fim:      in  std_logic;
-            zera, conta, carrega, desloca, pronto: out std_logic 
+            clock, reset, partida, tick, fim, recebe_dado:      in  std_logic;
+            zera, conta, carrega, desloca, pronto,limpa, tem_dado: out std_logic 
     );
     end component;
 
     component rx_serial_8N2_fd port (
         clock, reset: in std_logic;
         zera, conta, carrega, desloca: in std_logic;
-        dados_ascii: in std_logic_vector (7 downto 0);
-        saida_serial, fim : out std_logic
+        dado_serial: in std_logic;
+        fim : out std_logic;
+		  dado_recebido: out std_logic_vector (7 downto 0)
     );
     end component;
     
-    component contador_m
+    component contadorg_m 
     generic (
         constant M: integer; 
-        constant N: integer 
     );
     port (
-        clock, zera, conta: in std_logic;
-        Q: out std_logic_vector (N-1 downto 0);
-        fim: out std_logic
+        clock, zera_as, zera_s, conta: in std_logic;
+        Q: out std_logic_vector (natural(ceil(log2(real(M))))-1 downto 0);
+        fim, meio: out std_logic
     );
     end component;
     
@@ -55,7 +55,7 @@ architecture rx_serial_8N2_arch of rx_serial_8N2_8N2 is
     );
     end component;
     
-    signal s_reset, s_partida, s_partida_ed: std_logic;
+    signal s_reset, s_partida, s_partida_ed, s_limpa: std_logic;
     signal s_zera, s_conta, s_carrega, s_desloca, s_tick, s_fim: std_logic;
 
 begin
@@ -65,12 +65,12 @@ begin
     s_partida <= partida;
 
     -- unidade de controle
-    U1_UC: rx_serial_tick_uc port map (clock, s_reset, s_partida_ed, s_tick, s_fim,
-                                       s_zera, s_conta, s_carrega, s_desloca, pronto);
+    U1_UC: rx_serial_tick_uc port map (clock, s_reset, s_partida_ed, s_tick, s_fim, recebe_dado,
+                                       s_zera, s_conta, s_carrega, s_desloca, pronto_rx, s_limpa, tem_dado);
 
     -- fluxo de dados
     U2_FD: rx_serial_8N2_fd port map (clock, s_reset, s_zera, s_conta, s_carrega, s_desloca, 
-                                      dados_ascii, saida_serial, s_fim);
+                                      dado_serial, s_fim, dado_recebido);
 
     -- gerador de tick
     -- fator de divisao 50MHz para 9600 bauds (5208=50M/9600), 13 bits
