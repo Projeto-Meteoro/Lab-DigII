@@ -61,6 +61,6 @@ begin
 
     U2: contadorg_m  generic map (M => 12) port map (clock, zera, '0', conta, open, fim, open);
 	 
-	U3: registrador_n generic map (N=> 8) port map (clock, limpa, registra, s_saida(7 downto 0), dado_recebido);
+	U3: registrador_n generic map (N=> 8) port map (clock, limpa, registra, s_saida(8 downto 1), dado_recebido);
     
 end architecture;

@@ -34,6 +34,6 @@ begin
         end if;
     end process;
 
-    output<= (not signal_d) and signal_in; 
+    output<= (not signal_d) and (not signal_in); 
 
 end Behavioral;
