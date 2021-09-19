@@ -1,0 +1,23 @@
+# Modelsim
+
+*.cr.mti
+*.mpf
+*.wlf
+*/.Modelsim/work
+
+# Quartus
+c5_pin_model_dump.txt
+
+db/
+
+*/.*/incremental_db/
+*/.*/output_files/
+
+*.qarlog
+*.qpf
+*.qsf
+*.qsf
+*.bak
+
+*.rpt
+*.qws

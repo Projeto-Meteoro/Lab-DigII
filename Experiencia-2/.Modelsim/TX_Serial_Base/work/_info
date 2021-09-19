@@ -1,0 +1,291 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-1/.Modelsim
+Econtador_m
+Z0 w1631274350
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base
+Z5 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/contador_m.vhd
+Z6 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/contador_m.vhd
+l0
+L22
+VP_c]SRz?Ei?JDcBDzK>_V1
+!s100 ReemF95ha8GcfU<5957Ph1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1631469338
+!i10b 1
+Z9 !s108 1631469338.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/contador_m.vhd|
+Z11 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/contador_m.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acontador_m_arch
+R1
+R2
+R3
+DEx4 work 10 contador_m 0 22 P_c]SRz?Ei?JDcBDzK>_V1
+l36
+L34
+VFKDHWIL:Mje3bj52ToTWR2
+!s100 0l2E0>X7@5GV1a09[T3fm2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edeslocador_n
+Z14 w1631274581
+R2
+R3
+R4
+Z15 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/deslocador_n.vhd
+Z16 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/deslocador_n.vhd
+l0
+L22
+V;@6ajgTRHI2j_Jh0X<bU^1
+!s100 1NZjF6n2fT7?LNC7aZmGJ0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/deslocador_n.vhd|
+Z18 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/deslocador_n.vhd|
+!i113 1
+R12
+R13
+Adeslocador_n_arch
+R2
+R3
+DEx4 work 12 deslocador_n 0 22 ;@6ajgTRHI2j_Jh0X<bU^1
+l38
+L34
+VO5KG9]>CKzmeJziQbV;Sz1
+!s100 nNJMQo2T_fK^WGhBm:mmJ1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eedge_detector
+Z19 w1631274779
+R2
+R3
+R4
+Z20 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/edge_detector.vhd
+Z21 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/edge_detector.vhd
+l0
+L20
+VHlhzMHiWSjGSej[VJdfiQ1
+!s100 IL>P<]N@`F;S]1F1bNN]I3
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/edge_detector.vhd|
+Z23 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/edge_detector.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 13 edge_detector 0 22 HlhzMHiWSjGSej[VJdfiQ1
+l29
+L27
+VcoBX@d2PY4=CBbzAS[mC21
+!s100 ejL8OKneb<0a>Tzb=6k3J2
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Etx_serial_7e2
+Z24 w1631273943
+R1
+R2
+R3
+R4
+Z25 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2.vhd
+Z26 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2.vhd
+l0
+L22
+VOnUiF:ViL?6LCzUbn981z0
+!s100 dd65dmPolVoEU<OVV6f0C1
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2.vhd|
+Z28 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2.vhd|
+!i113 1
+R12
+R13
+Atx_serial_7e2_arch
+R1
+R2
+R3
+DEx4 work 13 tx_serial_7e2 0 22 OnUiF:ViL?6LCzUbn981z0
+l68
+L30
+VFNY=7;@Z?VVgIKElZJICW0
+!s100 lIj?Ji`T2@9YP7L2=:7@11
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Etx_serial_7e2_fd
+Z29 w1631273910
+R1
+R2
+R3
+R4
+Z30 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2_fd.vhd
+Z31 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2_fd.vhd
+l0
+L21
+VMF66`N2o>YhKJQhUH;Sf;2
+!s100 jgZZ1aekZjjYa=MVRZCd>2
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2_fd.vhd|
+Z33 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_7E2_fd.vhd|
+!i113 1
+R12
+R13
+Atx_serial_7e2_fd_arch
+R1
+R2
+R3
+DEx4 work 16 tx_serial_7e2_fd 0 22 MF66`N2o>YhKJQhUH;Sf;2
+l58
+L30
+VmAQ@hYOS<fm19>Qz7`<^N2
+!s100 b1YgkmbNkb>=4JAR4@_GW3
+R7
+32
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Etx_serial_tb
+Z34 w1631470747
+R1
+R2
+R3
+R4
+Z35 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-2\.Modelsim\TX_Serial_Base\tx_serial_tb.vhd
+Z36 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-2\.Modelsim\TX_Serial_Base\tx_serial_tb.vhd
+l0
+L20
+VBdmVWg84dTU@E@aSamfcl1
+!s100 8Fl8TWfAmY54[czSfQV8U2
+R7
+32
+Z37 !s110 1631470758
+!i10b 1
+Z38 !s108 1631470758.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-2\.Modelsim\TX_Serial_Base\tx_serial_tb.vhd|
+Z40 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-2\.Modelsim\TX_Serial_Base\tx_serial_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+Z41 DEx4 work 12 tx_serial_tb 0 22 BdmVWg84dTU@E@aSamfcl1
+l48
+L23
+VAjD61]W8]:oSPUf9H<iK32
+!s100 eb@RdWjIR8W_LCDQY]0>l1
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Etx_serial_tick_uc
+Z42 w1631274138
+R2
+R3
+R4
+Z43 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_tick_uc.vhd
+Z44 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_tick_uc.vhd
+l0
+L21
+VW_=:[2W?GWlc7JN7hDf5[1
+!s100 XOLlFn6Z6ZeNoB4<aB=hb0
+R7
+32
+Z45 !s110 1631469339
+!i10b 1
+Z46 !s108 1631469339.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_tick_uc.vhd|
+Z48 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-2/.Modelsim/TX_Serial_Base/tx_serial_tick_uc.vhd|
+!i113 1
+R12
+R13
+Atx_serial_tick_uc_arch
+R2
+R3
+DEx4 work 17 tx_serial_tick_uc 0 22 W_=:[2W?GWlc7JN7hDf5[1
+l33
+L27
+VR62Lz3:7f]zdCaeJ<?dD32
+!s100 N2:OgbCGJSC]hbN:3=G=O0
+R7
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R12
+R13
