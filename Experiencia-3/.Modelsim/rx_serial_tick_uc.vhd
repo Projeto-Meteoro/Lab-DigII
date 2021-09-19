@@ -28,7 +28,7 @@ begin
     end process;
 
   -- logica de proximo estado
-    process (partida, tick, fim, Eatual) 
+    process (partida, tick, fim, recebe_dado, Eatual) 
     begin
 
       case Eatual is

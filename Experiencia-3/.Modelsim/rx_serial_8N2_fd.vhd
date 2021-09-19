@@ -53,14 +53,14 @@ architecture rx_serial_8N2_fd_arch of rx_serial_8N2_fd is
 	 end component;
     
     signal s_saida: std_logic_vector (10 downto 0);
-	 signal s_dados: std_logic_vector (10 downto 0);
+	signal s_dados: std_logic_vector (10 downto 0);
 
 begin
-
+	
     U1: deslocador_n generic map (N => 11)  port map (clock, reset, carrega, desloca, dado_serial, s_dados, s_saida);
 
     U2: contadorg_m  generic map (M => 12) port map (clock, zera, '0', conta, open, fim, open);
 	 
-	 U3: registrador_n generic map (N=> 8) port map (clock, limpa, registra, s_saida(8 downto 1), dado_recebido);
+	U3: registrador_n generic map (N=> 8) port map (clock, limpa, registra, s_saida(7 downto 0), dado_recebido);
     
 end architecture;
