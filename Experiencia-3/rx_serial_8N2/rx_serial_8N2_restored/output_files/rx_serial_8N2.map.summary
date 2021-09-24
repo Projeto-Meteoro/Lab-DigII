@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Sep 20 20:18:47 2021
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : rx_serial_8N2
+Top-level Entity Name : rx_serial_8N2
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 43
+Total pins : 21
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

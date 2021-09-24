@@ -1,0 +1,377 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/16.1
+Econtadorg_m
+Z0 w1631995865
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim
+Z6 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/contadorg_m.vhd
+Z7 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/contadorg_m.vhd
+l0
+L24
+V3XkOWFTW3QQnKzzkgnK3R3
+!s100 R]dZdUnEkD]OG>X2=:;zj1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1632181540
+!i10b 1
+Z10 !s108 1632181540.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/contadorg_m.vhd|
+Z12 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/contadorg_m.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Acomportamental
+R1
+R2
+R3
+R4
+DEx4 work 11 contadorg_m 0 22 3XkOWFTW3QQnKzzkgnK3R3
+l37
+L35
+V=R8C]0f?MJVzjke[za>8G1
+!s100 hjf6aAUFk3Z_MWT[idzGc1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edeslocador_n
+Z15 w1631999992
+R3
+R4
+R5
+Z16 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/deslocador_n.vhd
+Z17 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/deslocador_n.vhd
+l0
+L22
+V;@6ajgTRHI2j_Jh0X<bU^1
+!s100 1NZjF6n2fT7?LNC7aZmGJ0
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/deslocador_n.vhd|
+Z19 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/deslocador_n.vhd|
+!i113 1
+R13
+R14
+Adeslocador_n_arch
+R3
+R4
+DEx4 work 12 deslocador_n 0 22 ;@6ajgTRHI2j_Jh0X<bU^1
+l38
+L34
+VO5KG9]>CKzmeJziQbV;Sz1
+!s100 nNJMQo2T_fK^WGhBm:mmJ1
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eedge_detector
+Z20 w1632071863
+R3
+R4
+R5
+Z21 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/edge_detector.vhd
+Z22 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/edge_detector.vhd
+l0
+L20
+VHlhzMHiWSjGSej[VJdfiQ1
+!s100 IL>P<]N@`F;S]1F1bNN]I3
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/edge_detector.vhd|
+Z24 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/edge_detector.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 13 edge_detector 0 22 HlhzMHiWSjGSej[VJdfiQ1
+l29
+L27
+V67QV:9NF1EBbBc?OPH]H93
+!s100 >a9H`aDlVDUZRWHBE@_C]0
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ehex7seg
+R0
+R3
+R4
+R5
+Z25 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/hex7seg.vhd
+Z26 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/hex7seg.vhd
+l0
+L17
+VnXXW`;?<dIC3m=mk4[US?3
+!s100 T6O:IVz;`2l7_]S4gGT9?0
+R8
+32
+R9
+!i10b 1
+R10
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/hex7seg.vhd|
+Z28 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/hex7seg.vhd|
+!i113 1
+R13
+R14
+Acomportamental
+R3
+R4
+DEx4 work 7 hex7seg 0 22 nXXW`;?<dIC3m=mk4[US?3
+l25
+L24
+VN4Oa:gB>P8f4G7U<iPTY;2
+!s100 hH<KV0B@omJ_>FD]Hm@I91
+R8
+32
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 1
+R13
+R14
+Eregistrador_n
+R0
+R3
+R4
+R5
+Z29 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/registrador_n.vhd
+Z30 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/registrador_n.vhd
+l0
+L22
+V1QQ8B`Fd]3k=BZ5BJcdIG1
+!s100 >C4dfB5hPY2UIOH:9mBz70
+R8
+32
+R9
+!i10b 1
+R10
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/registrador_n.vhd|
+Z32 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/registrador_n.vhd|
+!i113 1
+R13
+R14
+Aregistrador_n
+R3
+R4
+DEx4 work 13 registrador_n 0 22 1QQ8B`Fd]3k=BZ5BJcdIG1
+l37
+L35
+VZ<IJlab9^3VUkh8CD8hM=0
+!s100 zOkOc8FPi4hbRU01ildY61
+R8
+32
+R9
+!i10b 1
+R10
+R31
+R32
+!i113 1
+R13
+R14
+Erx_serial_8n2
+Z33 w1632067729
+R1
+R2
+R3
+R4
+R5
+Z34 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2.vhd
+Z35 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2.vhd
+l0
+L9
+V>DnbQ5OU>M4zjC3NLBckE2
+!s100 lg]4T3WE^1lhMHAPiahHL0
+R8
+32
+Z36 !s110 1632181541
+!i10b 1
+Z37 !s108 1632181541.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2.vhd|
+Z39 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2.vhd|
+!i113 1
+R13
+R14
+Aestrutural
+R1
+R2
+R3
+R4
+Z40 DEx4 work 13 rx_serial_8n2 0 22 >DnbQ5OU>M4zjC3NLBckE2
+l70
+L23
+V>zdek<oWVfejc[Izk>]Nl2
+!s100 =7^LehmPo@h4@3L<X7fdi2
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R13
+R14
+Erx_serial_8n2_fd
+Z41 w1632072018
+R1
+R2
+R3
+R4
+R5
+Z42 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2_fd.vhd
+Z43 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2_fd.vhd
+l0
+L7
+VC`ndFJ7]>>mZdI4MV>_7L1
+!s100 jOzzN;W:Y;P5g>gZ0Y4aQ3
+R8
+32
+R36
+!i10b 1
+R37
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2_fd.vhd|
+Z45 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_8N2_fd.vhd|
+!i113 1
+R13
+R14
+Arx_serial_8n2_fd_arch
+R1
+R2
+R3
+R4
+DEx4 work 16 rx_serial_8n2_fd 0 22 C`ndFJ7]>>mZdI4MV>_7L1
+l58
+L17
+VbDWo3K810b0K7S<JOL3_f0
+!s100 hB?J4>aP]Wz^MIf65JTj>2
+R8
+32
+R36
+!i10b 1
+R37
+R44
+R45
+!i113 1
+R13
+R14
+Erx_serial_tb
+Z46 w1632181300
+R2
+R3
+R4
+R5
+Z47 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tb.vhd
+Z48 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tb.vhd
+l0
+L20
+VN=ET<MDOY;RKfAmV9mY]k0
+!s100 ^UFXlok4neO9zCRn;eERJ1
+R8
+32
+R36
+!i10b 1
+R37
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tb.vhd|
+Z50 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R1
+R40
+R2
+R3
+R4
+DEx4 work 12 rx_serial_tb 0 22 N=ET<MDOY;RKfAmV9mY]k0
+l88
+L23
+VbCi@[:J_B^?LnMQF6MUCh2
+!s100 bNfeQCcLh_>OK`=Dh^3Ea0
+R8
+32
+R36
+!i10b 1
+R37
+R49
+R50
+!i113 1
+R13
+R14
+Erx_serial_tick_uc
+Z51 w1632069927
+R3
+R4
+R5
+Z52 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tick_uc.vhd
+Z53 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tick_uc.vhd
+l0
+L4
+VMR`9`IRm6Sj=CDXkmkXl90
+!s100 _[BJ;]lzMGmC0<2Pm4Cl63
+R8
+32
+Z54 !s110 1632181542
+!i10b 1
+R37
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tick_uc.vhd|
+Z56 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-3/.Modelsim/rx_serial_tick_uc.vhd|
+!i113 1
+R13
+R14
+Arx_serial_tick_uc_arch
+R3
+R4
+DEx4 work 17 rx_serial_tick_uc 0 22 MR`9`IRm6Sj=CDXkmkXl90
+l18
+L12
+V_Saz[FdQ_Q23`U`B3RXF^1
+!s100 N7?hL]h0>@C3_7=jQfXbC1
+R8
+32
+R54
+!i10b 1
+R37
+R55
+R56
+!i113 1
+R13
+R14
