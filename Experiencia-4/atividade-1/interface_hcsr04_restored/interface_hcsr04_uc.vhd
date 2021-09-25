@@ -41,7 +41,7 @@ begin
 
         when preparacao =>       Eprox <= gera_trigger;
 		  
-		  when gera_trigger =>   Eprox <= espera_echo;
+		  when gera_trigger =>     Eprox <= espera_echo;
 
         when espera_echo =>      if echo='1' then   Eprox <= medicao;
                                  else               Eprox <= espera_echo;

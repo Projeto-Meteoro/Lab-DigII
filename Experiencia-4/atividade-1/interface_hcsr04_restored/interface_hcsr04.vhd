@@ -20,7 +20,7 @@ architecture hcsr04_arch of interface_hcsr04 is
 
 	component interface_hcsr04_uc 
 		port ( 
-			clock, reset, medir, echo: 	 in  std_logic;
+			clock, reset, medir, echo: 					 in  std_logic;
 			zera, conta, pronto,limpa, registra, gera: out std_logic;
 			db_estado: 											 out std_logic_vector(3 downto 0)
 		);
@@ -61,5 +61,4 @@ begin
 	-- gerador de tick
 	-- fator de divisao 58,82us para 20ns (2941=58,82us/20ns)		
 	U3_TICK: contadorg_m  generic map (M => 2941) port map (clock, s_zera, '0', s_conta, open, s_tick, open);
-
 end architecture;
