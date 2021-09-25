@@ -52,11 +52,12 @@ architecture fd_arch of interface_hcsr04_fd is
 	signal s_contagem: std_logic_vector(11 downto 0);
 	 
 begin 
-	contagem: contador_bcd_4digitos port map (clock, zera, conta, s_contagem(11 downto 8), 
-														   s_contagem(7 downto 4), s_contagem(3 downto 0), open);
+	contagem: contador_bcd_4digitos port map (clock, zera, conta, s_contagem(3 downto 0), 
+														   s_contagem(7 downto 4), s_contagem(11 downto 8), open);
 															
 	registrador: registrador_n generic map (N=> 12) port map (clock, limpa, registra, s_contagem, distancia);
 	
-	gera_pulso: gerador_pulso generic map (largura => 10) port map (clock, zera, gera, '0', trigger, fim);
+	-- fator de divisao 10us para 20ns (500=10us/20ns)
+	gera_pulso: gerador_pulso generic map (largura => 500) port map (clock, zera, gera, '0', trigger, fim);
 
 end architecture;
