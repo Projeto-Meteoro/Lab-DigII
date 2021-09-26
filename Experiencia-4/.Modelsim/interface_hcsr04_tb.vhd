@@ -58,8 +58,10 @@ architecture tb of interface_hcsr04_tb is
   type casos_teste_array is array (natural range <>) of caso_teste_type;
   constant casos_teste : casos_teste_array :=
       (
-        (1, 5882),  -- 5882us (100cm)
-        (2, 4353)   -- 4353us (74cm)
+        (1, 5882),   -- 5882us (100cm)
+        (2, 4353),   -- 4353us (74cm)
+		(3, 2941),	 -- 2941   (50cm)
+		(4, 589)	 -- 589	   (10cm)
         -- inserir aqui outros casos de teste (inserir "," na linha anterior)
       );
 
