@@ -61,7 +61,8 @@ architecture tb of interface_hcsr04_tb is
         (1, 5882),   -- 5882us (100cm)
         (2, 4353),   -- 4353us (74cm)
 		(3, 2941),	 -- 2941   (50cm)
-		(4, 589)	 -- 589	   (10cm)
+		(4, 589),	 -- 589	   (10cm)
+		(5, 642)	 -- 642    (10.9cm)
         -- inserir aqui outros casos de teste (inserir "," na linha anterior)
       );
 
