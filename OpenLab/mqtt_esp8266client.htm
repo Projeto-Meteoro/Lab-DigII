@@ -1,0 +1,106 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+
+<div align="center">
+
+	<table>
+		<tr><td>broker</td><td><input style="width:350px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="broker" type="text" value="3.141.193.238" onchange="localStorage.setItem('esp8266cli_bro',this.value);"></td></tr>
+		<tr><td>port</td><td><input style="width:350px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="port" type="text" value="8000" onchange="localStorage.setItem('esp8266cli_por',this.value);"></td></tr>
+		<tr><td>inTopic</td><td><input style="width:350px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="inTopic" type="text" value="ESP-997A37/outTopic" onchange="localStorage.setItem('esp8266cli_int',this.value);"></td></tr>
+		<tr><td>outTopic</td><td><input style="width:350px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="outTopic" type="text" value="ESP-997A37/inTopic" onchange="localStorage.setItem('esp8266cli_out',this.value);"></td></tr>
+		<tr><td>username</td><td><input style="width:200px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="username" type="text" value="user" onchange="localStorage.setItem('esp8266cli_username',this.value);"></td></tr>
+		<tr><td>password</td><td><input style="width:200px;background:white;color:black;border:solid 1px silver;border-radius:4px;" id="password" type="password" value="password" onchange="localStorage.setItem('esp8266cli_password',this.value);"></td></tr>
+		<tr><td colspan="2" style="text-align:center;"><input type="button" value="Aplicar alterações" onclick="location.reload();"></td></tr>
+		<tr><td colspan="2" style="text-align:center;" id="mqtt_status"></td></tr>
+	</table>
+
+	<div style="height:4px;"></div>
+	
+	<input id="led_D1" type="button" value="" style="width:16px;height:16px;border-radius:16px;vertical-align:bottom;margin-bottom:3px;">
+	<input type="button" value="D1=0" onclick="enviar('D1=0');">
+	<input type="button" value="D1=1" onclick="enviar('D1=1');">
+	
+	<div style="height:4px;"></div>
+	
+	<input id="led_1" type="button" value="" style="width:16px;height:16px;border-radius:16px;vertical-align:bottom;margin-bottom:3px;">
+	<input type="button" value="D4=0" onclick="enviar('D4=0');">
+	<input type="button" value="D4=1" onclick="enviar('D4=1');">
+
+<div id="log"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+
+<script>
+
+if(localStorage.getItem("esp8266cli_bro")){	broker.value=localStorage.getItem("esp8266cli_bro"); }
+if(localStorage.getItem("esp8266cli_por")){	port.value=localStorage.getItem("esp8266cli_por"); }
+if(localStorage.getItem("esp8266cli_int")){	inTopic.value=localStorage.getItem("esp8266cli_int"); }
+if(localStorage.getItem("esp8266cli_out")){	outTopic.value=localStorage.getItem("esp8266cli_out"); }
+if(localStorage.getItem("esp8266cli_username")){	username.value=localStorage.getItem("esp8266cli_username"); }
+if(localStorage.getItem("esp8266cli_password")){	password.value=localStorage.getItem("esp8266cli_password"); }
+
+function enviar(xx){
+	message=new Paho.MQTT.Message(xx);
+	message.destinationName=outTopic.value;
+	mqtt_client.send(message);
+}
+
+var mqtt_clientID = "clientID_" + parseInt(Math.random() * 10000);
+var mqtt_client=new Paho.MQTT.Client(broker.value, Number(port.value), "/mqtt", mqtt_clientID);
+mqtt_client.onConnectionLost = mqtt_onConnectionLost;
+mqtt_client.onMessageArrived = mqtt_onMessageArrived;
+
+function mqtt_connect(){
+	mqtt_client.connect({onSuccess:mqtt_onConnect, onFailure: mqtt_onFailure, userName:username.value, password:password.value});
+	mqtt_status.innerHTML="MQTT connecting...";
+}
+
+function mqtt_onConnect(){
+	mqtt_client.subscribe(inTopic.value);
+	mqtt_status.innerHTML="MQTT connected";
+}
+
+function mqtt_onFailure(){
+	mqtt_status.innerHTML="MQTT  connection fail";
+	setTimeout(mqtt_connect,5000);
+}
+
+function mqtt_onConnectionLost(responseObject) {
+	if (responseObject.errorCode !== 0){
+		console.log("MQTT connection lost: "+responseObject.errorMessage);
+		mqtt_status.innerHTML="MQTT  connection lost";
+	}
+	setTimeout(mqtt_connect,100);
+}
+
+function mqtt_onMessageArrived(message){
+	name=message.destinationName;
+	text=message.payloadString;
+	log.innerHTML=text;
+	myObj=JSON.parse(text);
+	if(typeof myObj.D1!='undefined'){
+		if(myObj.D1==1) led_D1.style.background="red";
+		if(myObj.D1==0) led_D1.style.background="black";
+	}
+	if(typeof myObj.D4!='undefined'){
+		if(myObj.D4==1) led_1.style.background="red";
+		if(myObj.D4==0) led_1.style.background="black";
+	}
+}
+
+mqtt_connect();
+
+</script>
+
+</body>
+
+</html>
