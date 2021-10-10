@@ -1,0 +1,258 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar
+Econtadorg_m
+Z0 w1631995865
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor
+Z6 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_m.vhd
+Z7 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_m.vhd
+l0
+L24
+V3XkOWFTW3QQnKzzkgnK3R3
+!s100 R]dZdUnEkD]OG>X2=:;zj1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1633874947
+!i10b 1
+Z10 !s108 1633874947.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_m.vhd|
+Z12 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_m.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Acomportamental
+R1
+R2
+R3
+R4
+DEx4 work 11 contadorg_m 0 22 3XkOWFTW3QQnKzzkgnK3R3
+l37
+L35
+V=R8C]0f?MJVzjke[za>8G1
+!s100 hjf6aAUFk3Z_MWT[idzGc1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Econtadorg_updown_m
+Z15 w1633867240
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_updown_m.vhd
+Z17 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_updown_m.vhd
+l0
+L26
+V?i[IFleGkgQYUbFWY:n>B0
+!s100 aV5mT5KDI5QCeR7K5c^m`2
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_updown_m.vhd|
+Z19 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/contadorg_updown_m.vhd|
+!i113 1
+R13
+R14
+Acomportamental
+R1
+R2
+R3
+R4
+DEx4 work 18 contadorg_updown_m 0 22 ?i[IFleGkgQYUbFWY:n>B0
+l45
+L42
+V3RO=lKh@9BBeY;F@HDH:g3
+!s100 nWUM0WoD4VATJoa=[Vlj91
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Econtrole_servo_3
+Z20 w1633715390
+R2
+R3
+R4
+R5
+Z21 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/controle_servo_3.vhd
+Z22 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/controle_servo_3.vhd
+l0
+L12
+VA?flkPF@OdBYN6HNAO[de2
+!s100 _JiW@[zVGz8bCL<zzAcja0
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/controle_servo_3.vhd|
+Z24 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/teste_servo_motor/controle_servo_3.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 16 controle_servo_3 0 22 A?flkPF@OdBYN6HNAO[de2
+l32
+L24
+VS:RHLZ^6=?W8Z;z7UUI`z2
+!s100 M2Ue>oGG2To>UV<9gEE_n1
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Eteste_movimentacao_servomoto_tb
+Z25 w1633875823
+R3
+R4
+R5
+Z26 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor_tb.vhd
+Z27 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor_tb.vhd
+l0
+L6
+VamzZo0iYP98lglV<RK8?^3
+!s100 ^3:@VSZ`9:1hZ7kbDH9kT1
+R8
+32
+Z28 !s110 1633875830
+!i10b 1
+Z29 !s108 1633875830.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor_tb.vhd|
+Z31 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R3
+R4
+DEx4 work 31 teste_movimentacao_servomoto_tb 0 22 amzZo0iYP98lglV<RK8?^3
+l38
+L9
+V=hS;ceI<U^4:2d;lb[dT:0
+!s100 ?NUUJZco`Rio?4;F024T=0
+R8
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R13
+R14
+Eteste_movimentacao_servomotor
+Z32 w1633875898
+R1
+R2
+R3
+R4
+R5
+Z33 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor.vhd
+Z34 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor.vhd
+l0
+L6
+V3YbzkKT?4hC53RE[WCh641
+!s100 LbF4:U2XbNUU2L4>55V;o3
+R8
+32
+Z35 !s110 1633875923
+!i10b 1
+Z36 !s108 1633875923.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor.vhd|
+Z38 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\teste_servo_motor\teste_movimentacao_servomotor.vhd|
+!i113 1
+R13
+R14
+Aestrutural
+R1
+R2
+R3
+R4
+DEx4 work 29 teste_movimentacao_servomotor 0 22 3YbzkKT?4hC53RE[WCh641
+l62
+L19
+V96GF>1W7o?>:JW;@86:jh0
+!s100 WZ2_bX_?V4nzH6PK:O25L1
+R8
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Eteste_movimentacao_servomotor_tb
+Z39 w1633875914
+R3
+R4
+R5
+R26
+R27
+l0
+L6
+VQ9^DimYPo5TnDh0QNHSE;3
+!s100 B8L3JYfodXe_@Tj=U6X271
+R8
+32
+Z40 !s110 1633875925
+!i10b 1
+Z41 !s108 1633875925.000000
+R30
+R31
+!i113 1
+R13
+R14
+Atb
+R3
+R4
+DEx4 work 32 teste_movimentacao_servomotor_tb 0 22 Q9^DimYPo5TnDh0QNHSE;3
+l38
+L9
+VGA<`hQn5:KI1mMI@FikU`3
+!s100 j??[;eR[BoGHLj:Uz8=Tg0
+R8
+32
+R40
+!i10b 1
+R41
+R30
+R31
+!i113 1
+R13
+R14

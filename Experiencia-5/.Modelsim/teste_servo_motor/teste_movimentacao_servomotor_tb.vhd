@@ -3,21 +3,21 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity controle_servo_3_tb is
+entity teste_movimentacao_servomotor_tb is
 end entity;
 
-architecture tb of controle_servo_3_tb is
+architecture tb of teste_movimentacao_servomotor_tb is
   
   -- Componente a ser testado (Device Under Test -- DUT)
-  component controle_servo_3 is
+  component teste_movimentacao_servomotor is
     port (
-      clock   :   in  std_logic;
-      reset   :   in  std_logic;
-      posicao :   in  std_logic_vector(2 downto 0);
-      pwm     	: out std_logic;
-	  db_reset:   out std_logic;  
-      db_pwm:     out std_logic; 
-      db_posicao: out std_logic_vector(2 downto 0) 
+        clock:         in  std_logic;  
+        reset:         in  std_logic; 
+        ligar:   	 	  in  std_logic; 
+        db_ligar:      out std_logic; 
+        pwm:           out std_logic; 
+        db_pwm:        out std_logic; 
+        posicao:       out std_logic_vector (2 downto 0)
     );
   end component;
   
@@ -25,11 +25,11 @@ architecture tb of controle_servo_3_tb is
   --   valores iniciais para fins de simulacao (GHDL ou ModelSim)
   signal clock_in: std_logic := '0';
   signal reset_in: std_logic := '0';
-  signal posicao_in: std_logic_vector (2 downto 0) := "000";
+  signal ligar_in: std_logic := '0';
+  signal db_ligar_out: std_logic := '0';
+  signal posicao_out: std_logic_vector (2 downto 0) := "000";
   signal pwm_out: std_logic := '0';
-  signal db_reset_out: std_logic := '0';
   signal db_pwm_out: std_logic := '0';
-  signal db_posicao_out: std_logic_vector(2 downto 0) := "000";
 
   -- Configurações do clock
   signal keep_simulating: std_logic := '0'; -- delimita o tempo de geração do clock
@@ -43,21 +43,21 @@ begin
 
  
   -- Conecta DUT (Device Under Test)
-  dut: controle_servo_3 port map( 
+  dut: teste_movimentacao_servomotor port map( 
          clock=>   clock_in,
          reset=>   reset_in,
-         posicao=> posicao_in,
+         ligar=>  ligar_in,
+		 db_ligar=> db_ligar_out,
          pwm=>     pwm_out,
-		 db_reset=> db_reset_out,
 		 db_pwm=> db_pwm_out,
-		 db_posicao=> db_posicao_out
+		 posicao=> posicao_out
       );
 
   -- geracao dos sinais de entrada (estimulos)
   stimulus: process is
   begin
   
-    assert false report "Inicio da simulacao" & LF & "... Simulacao ate 1600 ms. Aguarde o final da simulacao..." severity note;
+    assert false report "Inicio da simulacao" & LF & "... Simulacao ate 8000 ms. Aguarde o final da simulacao..." severity note;
     keep_simulating <= '1';
     
     ---- inicio: reset ----------------
@@ -67,37 +67,12 @@ begin
     wait for 2*clockPeriod;
 
     ---- casos de teste
-    -- posicao=000
-    posicao_in <= "000"; -- largura de pulso de 1 ms
-    wait for 19 ms;
-
-    -- posicao=001
-    posicao_in <= "001"; -- largura de pulso de 1,143 ms
-    wait for 19 ms;
-
-    -- posicao=010
-    posicao_in <= "010"; -- largura de pulso de 1,286 ms
-    wait for 19 ms;
-
-    -- posicao=011
-    posicao_in <= "011"; -- largura de pulso de 1,429 ms
-    wait for 19 ms;
+	ligar_in<= '1'; 
+    wait for 2*clockPeriod;
+    wait for 8000 ms;
 	
-    -- posicao=100
-    posicao_in <= "100"; -- largura de pulso de 1,571 ms
-    wait for 19 ms;
-	
-    -- posicao=101
-    posicao_in <= "101"; -- largura de pulso de 1,714 ms
-    wait for 19 ms;
-
-    -- posicao=110
-    posicao_in <= "110"; -- largura de pulso de 1,857 ms
-    wait for 19 ms;
-	
-    -- posicao=111
-    posicao_in <= "111"; -- largura de pulso de 2 ms
-    wait for 19 ms;
+	ligar_in<= '0'; 
+    wait for 2*clockPeriod;
 	
     ---- final dos casos de teste  da simulacao
     assert false report "Fim da simulacao" severity note;
