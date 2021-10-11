@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/16.1
+Econtrole_servo_3
+Z0 w1633715390
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/servo_motor
+Z5 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/servo_motor/controle_servo_3.vhd
+Z6 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/servo_motor/controle_servo_3.vhd
+l0
+L12
+VA?flkPF@OdBYN6HNAO[de2
+!s100 _JiW@[zVGz8bCL<zzAcja0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1633739716
+!i10b 1
+Z9 !s108 1633739716.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/servo_motor/controle_servo_3.vhd|
+Z11 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/servo_motor/controle_servo_3.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 16 controle_servo_3 0 22 A?flkPF@OdBYN6HNAO[de2
+l32
+L24
+VS:RHLZ^6=?W8Z;z7UUI`z2
+!s100 M2Ue>oGG2To>UV<9gEE_n1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econtrole_servo_3_tb
+Z14 w1633740956
+R2
+R3
+R4
+Z15 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\servo_motor\controle_servo_3_tb.vhd
+Z16 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\servo_motor\controle_servo_3_tb.vhd
+l0
+L6
+V8h:PUN^_:U<W6EZCV?NnK2
+!s100 HOOg^UWCSUo:jMn@H:d]b3
+R7
+32
+Z17 !s110 1633740962
+!i10b 1
+Z18 !s108 1633740962.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\servo_motor\controle_servo_3_tb.vhd|
+Z20 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\servo_motor\controle_servo_3_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+Z21 DEx4 work 19 controle_servo_3_tb 0 22 8h:PUN^_:U<W6EZCV?NnK2
+l38
+L9
+V0oQB?XX]z6SLBI4_iU@SC1
+!s100 S53mIW@hKE4><eKZdP@3C3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

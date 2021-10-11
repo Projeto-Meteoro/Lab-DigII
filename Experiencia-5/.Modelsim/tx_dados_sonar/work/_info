@@ -1,0 +1,736 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/uart
+Econtador_m
+Z0 w1631274350
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar
+Z5 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contador_m.vhd
+Z6 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contador_m.vhd
+l0
+L22
+VP_c]SRz?Ei?JDcBDzK>_V1
+!s100 ReemF95ha8GcfU<5957Ph1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1633818604
+!i10b 1
+Z9 !s108 1633818604.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contador_m.vhd|
+Z11 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contador_m.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acontador_m_arch
+R1
+R2
+R3
+DEx4 work 10 contador_m 0 22 P_c]SRz?Ei?JDcBDzK>_V1
+l36
+L34
+VFKDHWIL:Mje3bj52ToTWR2
+!s100 0l2E0>X7@5GV1a09[T3fm2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econtadorg_m
+Z14 w1631995865
+Z15 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R1
+R2
+R3
+R4
+Z16 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contadorg_m.vhd
+Z17 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contadorg_m.vhd
+l0
+L24
+V3XkOWFTW3QQnKzzkgnK3R3
+!s100 R]dZdUnEkD]OG>X2=:;zj1
+R7
+32
+Z18 !s110 1633820912
+!i10b 1
+Z19 !s108 1633820912.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contadorg_m.vhd|
+Z21 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/contadorg_m.vhd|
+!i113 1
+R12
+R13
+Acomportamental
+R15
+R1
+R2
+R3
+DEx4 work 11 contadorg_m 0 22 3XkOWFTW3QQnKzzkgnK3R3
+l37
+L35
+V=R8C]0f?MJVzjke[za>8G1
+!s100 hjf6aAUFk3Z_MWT[idzGc1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Edeslocador_n
+Z22 w1631999992
+R2
+R3
+R4
+Z23 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/deslocador_n.vhd
+Z24 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/deslocador_n.vhd
+l0
+L22
+V;@6ajgTRHI2j_Jh0X<bU^1
+!s100 1NZjF6n2fT7?LNC7aZmGJ0
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/deslocador_n.vhd|
+Z26 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/deslocador_n.vhd|
+!i113 1
+R12
+R13
+Adeslocador_n_arch
+R2
+R3
+DEx4 work 12 deslocador_n 0 22 ;@6ajgTRHI2j_Jh0X<bU^1
+l38
+L34
+VO5KG9]>CKzmeJziQbV;Sz1
+!s100 nNJMQo2T_fK^WGhBm:mmJ1
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Eedge_detector
+Z27 w1632071863
+R2
+R3
+R4
+Z28 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector.vhd
+Z29 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector.vhd
+l0
+L20
+VHlhzMHiWSjGSej[VJdfiQ1
+!s100 IL>P<]N@`F;S]1F1bNN]I3
+R7
+32
+Z30 !s110 1633820893
+!i10b 1
+Z31 !s108 1633820893.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector.vhd|
+Z33 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 13 edge_detector 0 22 HlhzMHiWSjGSej[VJdfiQ1
+l29
+L27
+V67QV:9NF1EBbBc?OPH]H93
+!s100 >a9H`aDlVDUZRWHBE@_C]0
+R7
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Eedge_detector_up
+Z34 w1632320601
+R2
+R3
+R4
+Z35 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector_up.vhd
+Z36 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector_up.vhd
+l0
+L20
+VnUG:YIFhbo9KDB2@5@ZX;0
+!s100 ^BW@dfMl3WVdRbVADQkac2
+R7
+32
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector_up.vhd|
+Z38 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/edge_detector_up.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 16 edge_detector_up 0 22 nUG:YIFhbo9KDB2@5@ZX;0
+l29
+L27
+VNI:YY`f<eGmn?Wze[?mmc2
+!s100 iR7Ca;ADK4<jT8RBNz=FX2
+R7
+32
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Ehex7seg
+R14
+R2
+R3
+R4
+Z39 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/hex7seg.vhd
+Z40 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/hex7seg.vhd
+l0
+L17
+VnXXW`;?<dIC3m=mk4[US?3
+!s100 T6O:IVz;`2l7_]S4gGT9?0
+R7
+32
+R8
+!i10b 1
+R9
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/hex7seg.vhd|
+Z42 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/hex7seg.vhd|
+!i113 1
+R12
+R13
+Acomportamental
+R2
+R3
+DEx4 work 7 hex7seg 0 22 nXXW`;?<dIC3m=mk4[US?3
+l25
+L24
+VN4Oa:gB>P8f4G7U<iPTY;2
+!s100 hH<KV0B@omJ_>FD]Hm@I91
+R7
+32
+R8
+!i10b 1
+R9
+R41
+R42
+!i113 1
+R12
+R13
+Emux_8x1_n
+Z43 w1633720715
+R2
+R3
+R4
+Z44 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/mux_8x1_n.vhd
+Z45 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/mux_8x1_n.vhd
+l0
+L18
+VGjNo][W<WkFf;1Lm89:<H3
+!s100 GZgT^nFiD[<53i>NBKY0^3
+R7
+32
+Z46 !s110 1633818605
+!i10b 1
+R9
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/mux_8x1_n.vhd|
+Z48 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/mux_8x1_n.vhd|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+DEx4 work 9 mux_8x1_n 0 22 GjNo][W<WkFf;1Lm89:<H3
+l37
+L36
+V<RJ:l6i0Y6A=e9HZ?ZOHS1
+!s100 WBzYlLNGE86SGdJOkH`WV3
+R7
+32
+R46
+!i10b 1
+R9
+R47
+R48
+!i113 1
+R12
+R13
+Eregistrador_n
+R14
+R2
+R3
+R4
+Z49 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/registrador_n.vhd
+Z50 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/registrador_n.vhd
+l0
+L22
+V1QQ8B`Fd]3k=BZ5BJcdIG1
+!s100 >C4dfB5hPY2UIOH:9mBz70
+R7
+32
+Z51 !s110 1633820904
+!i10b 1
+Z52 !s108 1633820904.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/registrador_n.vhd|
+Z54 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/registrador_n.vhd|
+!i113 1
+R12
+R13
+Aregistrador_n
+R2
+R3
+DEx4 work 13 registrador_n 0 22 1QQ8B`Fd]3k=BZ5BJcdIG1
+l37
+L35
+VZ<IJlab9^3VUkh8CD8hM=0
+!s100 zOkOc8FPi4hbRU01ildY61
+R7
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R12
+R13
+Erx_serial_8n2
+Z55 w1632067729
+R15
+R1
+R2
+R3
+R4
+Z56 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2.vhd
+Z57 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2.vhd
+l0
+L9
+V>DnbQ5OU>M4zjC3NLBckE2
+!s100 lg]4T3WE^1lhMHAPiahHL0
+R7
+32
+Z58 !s110 1633820897
+!i10b 1
+Z59 !s108 1633820897.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2.vhd|
+Z61 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2.vhd|
+!i113 1
+R12
+R13
+Aestrutural
+R15
+R1
+R2
+R3
+DEx4 work 13 rx_serial_8n2 0 22 >DnbQ5OU>M4zjC3NLBckE2
+l70
+L23
+V>zdek<oWVfejc[Izk>]Nl2
+!s100 =7^LehmPo@h4@3L<X7fdi2
+R7
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R12
+R13
+Erx_serial_8n2_fd
+Z62 w1632072018
+R15
+R1
+R2
+R3
+R4
+Z63 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2_fd.vhd
+Z64 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2_fd.vhd
+l0
+L7
+VC`ndFJ7]>>mZdI4MV>_7L1
+!s100 jOzzN;W:Y;P5g>gZ0Y4aQ3
+R7
+32
+Z65 !s110 1633820914
+!i10b 1
+Z66 !s108 1633820914.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2_fd.vhd|
+Z68 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_8N2_fd.vhd|
+!i113 1
+R12
+R13
+Arx_serial_8n2_fd_arch
+R15
+R1
+R2
+R3
+DEx4 work 16 rx_serial_8n2_fd 0 22 C`ndFJ7]>>mZdI4MV>_7L1
+l58
+L17
+VbDWo3K810b0K7S<JOL3_f0
+!s100 hB?J4>aP]Wz^MIf65JTj>2
+R7
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R12
+R13
+Erx_serial_tick_uc
+Z69 w1632069927
+R2
+R3
+R4
+Z70 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_tick_uc.vhd
+Z71 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_tick_uc.vhd
+l0
+L4
+VMR`9`IRm6Sj=CDXkmkXl90
+!s100 _[BJ;]lzMGmC0<2Pm4Cl63
+R7
+32
+Z72 !s110 1633820900
+!i10b 1
+Z73 !s108 1633820900.000000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_tick_uc.vhd|
+Z75 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/rx_serial_tick_uc.vhd|
+!i113 1
+R12
+R13
+Arx_serial_tick_uc_arch
+R2
+R3
+DEx4 work 17 rx_serial_tick_uc 0 22 MR`9`IRm6Sj=CDXkmkXl90
+l18
+L12
+V_Saz[FdQ_Q23`U`B3RXF^1
+!s100 N7?hL]h0>@C3_7=jQfXbC1
+R7
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R12
+R13
+Etx_dados_sonar
+Z76 w1633729441
+R1
+R2
+R3
+R4
+Z77 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar.vhd
+Z78 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar.vhd
+l0
+L17
+VAcNgQH09deWRV]ARZa6;52
+!s100 0S[@Mg17LlI@RL;Va0D3M2
+R7
+32
+R46
+!i10b 1
+Z79 !s108 1633818605.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar.vhd|
+Z81 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar.vhd|
+!i113 1
+R12
+R13
+Adados_sonar_arch
+R1
+R2
+R3
+DEx4 work 14 tx_dados_sonar 0 22 AcNgQH09deWRV]ARZa6;52
+l82
+L36
+VEPa:h01]Gb5Y^CAeIR_@z2
+!s100 BJ5KfLUkYo1HkXjh8MSc[0
+R7
+32
+R46
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R12
+R13
+Etx_dados_sonar_fd
+Z82 w1633730469
+R1
+R2
+R3
+R4
+Z83 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar_fd.vhd
+Z84 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar_fd.vhd
+l0
+L14
+V>U_ooZhFYWa<HGmDKJ9zQ2
+!s100 ALOEoVS?gaih6cTB6]?9L3
+R7
+32
+R46
+!i10b 1
+R79
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar_fd.vhd|
+Z86 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_dados_sonar_fd.vhd|
+!i113 1
+R12
+R13
+Adados_sonar_fd_arch
+R1
+R2
+R3
+DEx4 work 17 tx_dados_sonar_fd 0 22 >U_ooZhFYWa<HGmDKJ9zQ2
+l87
+L34
+V`A9DhJBzcMGA8leB`8Rk01
+!s100 BNC;_D`He^Q`LHI3gPXm80
+R7
+32
+R46
+!i10b 1
+R79
+R85
+R86
+!i113 1
+R12
+R13
+Etx_dados_sonar_tb
+Z87 w1633821454
+R1
+R2
+R3
+R4
+Z88 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_tb.vhd
+Z89 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_tb.vhd
+l0
+L5
+VHD1ajf=Co88FTRzdXhi=G1
+!s100 ^MfPWGVl4^e;UL?z]D2D^1
+R7
+32
+Z90 !s110 1633821458
+!i10b 1
+Z91 !s108 1633821458.000000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_tb.vhd|
+Z93 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+Z94 DEx4 work 17 tx_dados_sonar_tb 0 22 HD1ajf=Co88FTRzdXhi=G1
+l70
+L8
+V[JIlilWWNB_gITo4@Y?<e0
+!s100 je=a1TXX@8i4I?YkJ@9=^2
+R7
+32
+R90
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R12
+R13
+Etx_dados_sonar_uc
+Z95 w1633820169
+R2
+R3
+R4
+Z96 8C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_uc.vhd
+Z97 FC:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_uc.vhd
+l0
+L14
+V<71hozNf?DeB<@FaLiG7C2
+!s100 8_4nS]0Wl[dG9`le3O<z70
+R7
+32
+Z98 !s110 1633820177
+!i10b 1
+Z99 !s108 1633820177.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_uc.vhd|
+Z101 !s107 C:\Users\guilh\Documents\faculdade\LabDigII\Experiencia-5\.Modelsim\tx_dados_sonar\tx_dados_sonar_uc.vhd|
+!i113 1
+R12
+R13
+Adados_sonar_uc_arch
+R2
+R3
+DEx4 work 17 tx_dados_sonar_uc 0 22 <71hozNf?DeB<@FaLiG7C2
+l35
+L29
+VXJhc[4_cY?9kW6EXnYj4_3
+!s100 Xo0oLhn4YYj?`]DLQ:l<>2
+R7
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 1
+R12
+R13
+Etx_serial_8n2
+Z102 w1633723720
+R1
+R2
+R3
+R4
+Z103 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2.vhd
+Z104 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2.vhd
+l0
+L23
+V1ZBC<8Xm=I]Udd_l7FLPJ1
+!s100 c@?Z8VW<[:W^JSh?dkF2M3
+R7
+32
+R46
+!i10b 1
+R79
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2.vhd|
+Z106 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2.vhd|
+!i113 1
+R12
+R13
+Atx_serial_8n2_arch
+R1
+R2
+R3
+DEx4 work 13 tx_serial_8n2 0 22 1ZBC<8Xm=I]Udd_l7FLPJ1
+l67
+L34
+V8CZ1>3PE>_`n_Wa^U4XlM2
+!s100 8mN4EoJJ7Uo613z^LN?Id0
+R7
+32
+R46
+!i10b 1
+R79
+R105
+R106
+!i113 1
+R12
+R13
+Etx_serial_8n2_fd
+Z107 w1633723887
+R1
+R2
+R3
+R4
+Z108 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2_fd.vhd
+Z109 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2_fd.vhd
+l0
+L20
+VE[NVEM4>8I[z_UZ9MM<AK0
+!s100 Og2dg7f5A?R32_cW]?NAf2
+R7
+32
+R46
+!i10b 1
+R79
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2_fd.vhd|
+Z111 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_8N2_fd.vhd|
+!i113 1
+R12
+R13
+Atx_serial_8n2_fd_arch
+R1
+R2
+R3
+DEx4 work 16 tx_serial_8n2_fd 0 22 E[NVEM4>8I[z_UZ9MM<AK0
+l57
+L29
+VjZWlKAbP4?5Pi[S<AaI1l0
+!s100 mhjjY[O:ahF]NLQ36W<jI1
+R7
+32
+R46
+!i10b 1
+R79
+R110
+R111
+!i113 1
+R12
+R13
+Etx_serial_tick_uc
+Z112 w1633728691
+R2
+R3
+R4
+Z113 8C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_tick_uc.vhd
+Z114 FC:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_tick_uc.vhd
+l0
+L21
+V0_^@5^AKBHzlbX97:X]@=2
+!s100 X6FMdd4jHU:H:k<DLfXT53
+R7
+32
+R8
+!i10b 1
+R9
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_tick_uc.vhd|
+Z116 !s107 C:/Users/guilh/Documents/faculdade/LabDigII/Experiencia-5/.Modelsim/tx_dados_sonar/tx_serial_tick_uc.vhd|
+!i113 1
+R12
+R13
+Atx_serial_tick_uc_arch
+R2
+R3
+DEx4 work 17 tx_serial_tick_uc 0 22 0_^@5^AKBHzlbX97:X]@=2
+l34
+L28
+VU6cgL_QD4CJOV`@d6^5P43
+!s100 AWD3W?N;[0aRMBaC<CNh33
+R7
+32
+R8
+!i10b 1
+R9
+R115
+R116
+!i113 1
+R12
+R13
