@@ -4,10 +4,10 @@
 *.mpf
 *.wlf
 */.Modelsim/work
-
+/backup/
 # Quartus
 c5_pin_model_dump.txt
-
+*/envio/
 db/
 
 */.*/incremental_db/
