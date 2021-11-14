@@ -59,7 +59,7 @@ begin
 		  
         when abre_porta =>     Eprox <= espera_10s;
 		  
-		  when espera_10s =>		if pronto_10s='1' then   Eprox <= verifica_distancia;
+		  when espera_10s =>		if pronto_10s='1' then   Eprox <= mede;
                               else               Eprox <= espera_10s;
                               end if;
 		  

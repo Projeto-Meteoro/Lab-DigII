@@ -87,11 +87,11 @@ end component;
 	signal proximidade_entrada, proximidade_saida: std_logic;
 	 
 begin 
-
-	ESP10S: contadorg_m generic map (M => 500000000) port map (clock, zera, '0',  conta, open, pronto_10s);	
+	-- MODIFICADO PARA 200 MS 
+	ESP10S: contadorg_m generic map (M => 10000000) port map (clock, zera, '0',  conta, open, pronto_10s);	
 	
 	with sel_mux select
-		posicao <= "000" when '1', "101" when others;
+		posicao <= "000" when '1', "110" when others;
 		
 		
 	RN: registrador_n generic map (N => 3) port map(clock, reset, registra, posicao, saida_registrador);
@@ -106,16 +106,19 @@ begin
 												 medida_saida, pronto_saida);
 
 												 
-	proximidade_entrada <= '0' when medida_entrada(11 downto 8) = "0000" else
+	proximidade_entrada <= '0' when medida_entrada(11 downto 8) /= "0000" else
 								  '1' when medida_entrada(7 downto 4) = "0010" else
+								  '1' when medida_entrada(7 downto 4) = "0001" else
 								  '1' when medida_entrada(7 downto 4) = "0000" else '0';
 								  
-	proximidade_saida <= '0' when medida_saida(11 downto 8) = "0000" else
+	proximidade_saida <= '0' when medida_saida(11 downto 8) /= "0000" else
 								  '1' when medida_saida(7 downto 4) = "0010" else
+								  '1' when medida_saida(7 downto 4) = "0001" else
 								  '1' when medida_saida(7 downto 4) = "0000" else '0';
 								  
 	menorque30cm <= proximidade_saida or proximidade_entrada;
 	
+	pronto_sensores <= pronto_saida and pronto_entrada;
 	-- depuracao
    db_saida <= medida_saida;
 end architecture;

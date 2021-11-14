@@ -53,7 +53,9 @@ begin
  
         when armazena =>         Eprox <= final;
 		  
-		  when final    =>			Eprox <= inicial;
+		when final    =>		 if medir='1' then Eprox <= preparacao;
+                                 else                Eprox <= final;
+                                 end if;
 		  
 											
         when others =>           Eprox <= inicial;

@@ -52,14 +52,19 @@ architecture hcsr04_arch of interface_hcsr04 is
 	signal s_tick: std_logic;
 	signal tick_cm: std_logic;
 	signal tick_pl: std_logic;
+	signal s_limpa_or_reset : std_logic;
+	signal s_zera_or_reset : std_logic;
 begin
 
+	s_limpa_or_reset <= s_limpa or reset;
+	s_zera_or_reset <= s_zera or reset;
+	
 	-- unidade de controle
 	U1_UC: interface_hcsr04_uc port map (clock, reset, medir, echo,
                                         s_zera, s_conta, pronto, s_limpa, s_registra, s_gera, db_estado);
 
 	-- fluxo de dados
-	U2_FD: interface_hcsr04_fd port map (clock, s_tick, s_zera or reset, s_registra, s_gera, s_limpa or reset, 
+	U2_FD: interface_hcsr04_fd port map (clock, s_tick, s_zera_or_reset, s_registra, s_gera, s_limpa_or_reset, 
 													 trigger, open, medida);
 			
 	-- gerador de tick
