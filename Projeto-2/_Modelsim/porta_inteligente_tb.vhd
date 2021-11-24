@@ -71,19 +71,25 @@ architecture tb of porta_inteligente_tb is
   type casos_teste_array is array (natural range <>) of caso_teste_type;
   constant casos_teste_entrada : casos_teste_array :=
       (
-        (1, 5882),   -- 5882us (100cm)
-        (2, 1177),   -- 1177us (20cm)
-		(3, 3059),   -- 3059us (52cm)
-		(4, 641)     -- 641us  (10.9cm)
+        (1, 5883),   -- 5883us  (100cm)
+        (2, 1177),   -- 1177us  (20cm)
+		(3, 7061),   -- 7061us  (120cm)
+		(4, 3059),   -- 3059us  (52cm)
+		(5, 16649),  -- 16649us (283cm)
+		(6, 641),    -- 641us   (10.9cm)
+		(7, 3766)    -- 3766us  (64cm)
       );
 
   type simular_sensor_array is array (natural range <>) of simular_sensor_type;
   constant casos_teste_saida : simular_sensor_array :=
       (
-		(1, '0'),	 -- 4353us (74cm)
-		(2, '1'),	 -- 294us  (05cm)
-		(3, '1'),   -- 1706us (29cm)
-		(4, '0')    -- 2647us (45cm)
+		(1, '0'),   -- 4353us (74cm)
+		(2, '1'),	-- 294us  (05cm)
+		(3, '0'),	-- 3530us (60cm)
+		(4, '1'),   -- 1706us (29cm)
+		(5, '0'),   -- 1942us (33cm)
+		(6, '0'),   -- 2647us (45cm)
+		(7, '0')    -- 3766us (64cm)
       );
 	  
   signal larguraPulso: time := 1 ns;
@@ -184,6 +190,7 @@ begin
 
     end loop;
 	
+	wait for 40 ms;
 
     ---- final dos casos de teste da simulacao
     assert false report "Fim das simulacoes" severity note;

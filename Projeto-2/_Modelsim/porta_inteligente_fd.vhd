@@ -141,9 +141,9 @@ begin
 		
 	RN: registrador_n generic map (N => 3) port map(clock, reset, registra, posicao, saida_registrador);
 	
-	RE: registrador_n generic map (N => 1) port map(clock, zera_reg, registra_entrada, prox_entrada, entrou_pessoa);
+	RE: registrador_n generic map (N => 1) port map(clock, zera_reg, registra_entrada, "1", entrou_pessoa);
 	
-	RS: registrador_n generic map (N => 1) port map(clock, zera_reg, registra_saida, prox_saida, saiu_pessoa);
+	RS: registrador_n generic map (N => 1) port map(clock, zera_reg, registra_saida, "1", saiu_pessoa);
 
 	CS3: controle_servo_3 port map(clock, reset, saida_registrador, pwm);
 
@@ -158,11 +158,11 @@ begin
 								  '1' when medida_entrada(7 downto 4) = "0001" else
 								  '1' when medida_entrada(7 downto 4) = "0000" else '0';
 								  
-	sel_palavra <= entrou_pessoa & saiu_pessoa;
+	sel_palavra <= saiu_pessoa & entrou_pessoa;
 	
 	pronto_sensores <= pronto_entrada and pronto_saida;
 	
-	esta_aberta <= entrou_pessoa(0) or entrou_pessoa(0);
+	esta_aberta <= entrou_pessoa(0) or saiu_pessoa(0);
 	
 	proximidade_entrada <= prox_entrada(0);
 	-- depuracao
